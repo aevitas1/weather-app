@@ -28,10 +28,14 @@ p {
     letter-spacing: 1px;
 }
 main {
+    padding-top: 5rem;
+}
+main,
+main * {
     position: relative;
     display: flex;
     justify-content: center;
-    padding-top: 5rem;
+    flex-direction: column;
 }
 .dates {
     display: flex;
@@ -73,4 +77,8 @@ main {
     background: rgba(var(--btn-clr), 0.5);
     transform: scale(0.98) translate(1px);
     transition: 20ms ease;
+}
+.weather-disp {
+    padding-top: 2rem;
+    margin: 0 auto;
 }

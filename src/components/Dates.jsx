@@ -6,27 +6,27 @@ export default function Dates() {
     return (
         <div className='dates'>
             <div className="topDate">
-                <h1><FaCloud class='weatherIcons'/>{getCurrentDate(0)}</h1>
+                <h1><FaCloud className='weatherIcons'/>{getCurrentDate(0)}</h1>
             </div>
             <div className="bottomDates">
                 <div>
-                    <p><FaCloudRain class='weatherIcons' />{getCurrentDate(1)}</p>
+                    <p><FaCloudRain className='weatherIcons' />{getCurrentDate(1)}</p>
                     <Link to=''><button>More info...</button></Link>
                     </div>
                 <div>
-                    <p><FaCloudSun class='weatherIcons' />{getCurrentDate(2)}</p>
+                    <p><FaCloudSun className='weatherIcons' />{getCurrentDate(2)}</p>
                     <Link to=''><button>More info...</button></Link>
                     </div>
                 <div>
-                    <p><FaSnowflake class='weatherIcons'/>{getCurrentDate(3)}</p>
+                    <p><FaSnowflake className='weatherIcons'/>{getCurrentDate(3)}</p>
                     <Link to=''><button>More info...</button></Link>
                     </div>
                 <div>
-                    <p><FaCloudSunRain class='weatherIcons'/>{getCurrentDate(4)}</p>
+                    <p><FaCloudSunRain className='weatherIcons'/>{getCurrentDate(4)}</p>
                     <Link to=''><button>More info...</button></Link>
                     </div>
                 <div>
-                    <p><FaSun class='weatherIcons'/>{getCurrentDate(5)}</p>
+                    <p><FaSun className='weatherIcons'/>{getCurrentDate(5)}</p>
                     <Link to=''><button>More info...</button></Link>
                     </div>
                 </div>

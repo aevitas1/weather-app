@@ -1,8 +1,11 @@
 export default function getCurrentDate(d) {
-    let date = new Date().getDate()+d;
+    let date = new Date().getDate() + d;
     let month = new Date().getMonth();
     let day;
-    switch (new Date().getDay() + d) {
+    let currentDate;
+
+    
+    switch (currentDate) {
         case 0:
             day = "Sun.";
             break;
@@ -27,18 +30,18 @@ export default function getCurrentDate(d) {
         case 7:
             day = "Sun."
             break;
-        case 8:
-            day = "Mon.";
-            break;
-        case 9:
-            day = "Tue.";
-            break;
-        case 10:
-            day = "Wed.";
-            break;
-        case 11:
-            day = "Thu.";
-            break;
+        // case 8:
+        //     day = "Mon.";
+        //     break;
+        // case 9:
+        //     day = "Tue.";
+        //     break;
+        // case 10:
+        //     day = "Wed.";
+        //     break;
+        // case 11:
+        //     day = "Thu.";
+        //     break;
         default: day = ''
     }
     switch (new Date().getMonth()) {
