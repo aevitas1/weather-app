@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+:root {
+    --bg-clr: 32, 33, 66;
+    --btn-clr: 96, 99, 178;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(var(--bg-clr));
+    color: #fff;
+    line-height: 1.6;
+}
+h1, h2, h3 { 
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+h1 {
+    font-size: 2.3rem;
+}
+h2 {
+    font-size: 2.1rem;
+}
+h3 {
+    font-size: 1.9rem;
+}
+p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.dates {
+    display: flex;
+    flex-flow: column;
+}
+.topDate {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+.bottomDates {
+    display: flex;
+    flex-flow: row;
+}
+.bottomDates div {
+    padding: 1rem 0.5rem;
+}
+.weatherIcons {
+    display: flex;
+    margin: 0 auto;
+}
+.bottomDates div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.bottomDates div button {
+    font-size: 0.7rem;
+    background: rgb(var(--btn-clr));
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 20ms ease;
+}
+.bottomDates div button:hover {
+    background: rgba(var(--btn-clr), 0.5);
+    transform: scale(0.98) translate(1px);
+    transition: 20ms ease;
+}
